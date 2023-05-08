@@ -6,6 +6,8 @@
 
 body {
     background-color: $white-color;
+    background-image: url(../img/main_bg.jpg);
+
 }
 
 li {
@@ -25,4 +27,15 @@ ul{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+// main heading
+.main-heading{
+    font-family: Nassim;
+    width: 100%;
+    height: 50px;
+    color: $black-color;
+    text-align: center;
+    span{
+        color: $red-color;
+    }
 }

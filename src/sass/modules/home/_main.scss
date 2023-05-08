@@ -1,0 +1,26 @@
+.section-one {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+
+    .container {
+        position: relative;
+        background-color: $white-color;
+
+        .carry {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .carry1{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .carry1{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}
