@@ -1,0 +1,128 @@
+.navbarsection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    background-image: url(../img/banner1.jpg);
+    header {
+        padding: 15px;
+        width: 100%;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            .navlink {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 40%;
+                height: 100%;
+                gap: 10px;
+                border-top: 1px solid $white-color;
+                border-bottom: 1px solid $white-color;
+
+                li {
+                    padding: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    a {
+                        font-size: 16px;
+                        color: $white-color;
+                    }
+                }
+                li:hover {
+                    background-color: $red-color;
+                }
+            }
+            .burgmenu {
+                width: 30px;
+                height: 30px;
+                position: relative;
+                display: none;
+                .line {
+                    width: 100%;
+                    height: 2px;
+                    background-color: $white-color;
+                }
+                .line1 {
+                    position: absolute;
+                  top: 0;
+                  left: 0;
+                }
+                .line2 {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                }
+                .line3 {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+            }    
+        }
+    }
+    .list-menu{
+        display: none;
+    }
+    .main-title {
+
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: Nassim;
+        color: $white-color;
+        text-align: center;
+
+        h1 {
+            font-size: 60px;
+
+            span {
+                color: $red-color;
+            }
+        }
+
+        .links-btn {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px;
+            font-family: Nassim-regular;
+
+            a {
+                background-color: $white-color;
+                padding: 10px 15px;
+                border-radius: 25px;
+                color: $black-color;
+                font-size: 15px;
+
+            }
+
+            .btn2 {
+                background-color: $red-color;
+                color: $white-color;
+            }
+        }
+    }
+.path{
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height:20px;
+background-position: center;
+background-repeat:repeat-x ;
+
+    background-image: url(../img/bottom_decoration_img.png);
+
+}
+}
