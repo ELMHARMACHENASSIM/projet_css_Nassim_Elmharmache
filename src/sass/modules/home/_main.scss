@@ -2,7 +2,6 @@
 .section-one {
     margin-top: 50px;
     width: 100%;
-
     height: auto;
 
     .container {
@@ -137,5 +136,37 @@
         }
     }
 }
-
+// end section one
+// start section one
+.section-two{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/team_background.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    .container{
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        .chef{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            img{
+                border-bottom: 1px solid #ece8e8a2;
+            }
+            .name{
+                margin-top: 10px;
+                font-family: Nassim-regular;
+                color: $white-color;
+                font-size: 20px;
+            }
+        }
+        
+    }
+}
 // end section one

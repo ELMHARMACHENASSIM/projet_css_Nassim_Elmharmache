@@ -445,3 +445,30 @@
     }
   }
 }
+@media (max-width:768px) {
+    .section-two{
+      
+        .container{
+            padding-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .chef{
+                margin-top: 20px;
+                padding: 10px;
+           border: 1px solid #ece8e8a2;
+                img{
+                   border: none;
+                }
+                .name{
+                    width: 100%;
+                    text-align: center;
+                    padding: 15px;
+                 background-color: $red-color;
+                }
+            }
+            
+        }
+    }
+}
