@@ -339,5 +339,46 @@
     }
   }
 }
-
 // end section three
+// start section four
+.section-four{
+  margin-top: 50px;
+width: 100%;
+height: auto;
+background-image: url(../img/testimonials_background.jpg);
+.main-heading{
+  h1{
+    color: $white-color;
+  }
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+padding-bottom: 50px;
+.client{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  .infoclient{
+    padding: 15px;
+    border: 1px solid $white-color;
+    border-radius: 15px;
+    color: $white-color;
+    .mag{
+      font-family: Nassim-regular;
+      color: $red-color;
+      font-size: 20px;
+    }
+  }
+  .logocircle{
+    img{
+      border: 5px solid $white-color;
+    }
+  }
+}
+}
+}
+// end section four
