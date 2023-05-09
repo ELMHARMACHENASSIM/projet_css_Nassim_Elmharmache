@@ -11222,6 +11222,86 @@ textarea.form-control-lg {
   margin: 0;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 60px;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/footer_background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+footer .path-footer {
+  position: absolute;
+  top: -6px;
+  width: 100%;
+  height: 20px;
+  background-image: url(../img/footer_bottom_decoration_img.png);
+  background-position: center;
+  background-repeat: repeat-x;
+}
+footer .container {
+  padding-bottom: 80px;
+  height: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+footer .container .about {
+  height: 100%;
+  color: #fff;
+}
+footer .container .about .icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  font-size: 35px;
+}
+footer .container .images {
+  color: #fff;
+}
+footer .container .images .imgig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+footer .container .tags {
+  height: 100%;
+  color: #fff;
+}
+footer .container .tags .tagnames {
+  height: 100%;
+}
+footer .container .tags .tagnames .tag {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  height: 60px;
+}
+footer .container .tags .tagnames .tag span {
+  color: #fff;
+  background-color: #b12a3b;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+footer .btm-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #b12a3b;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11504,6 +11584,98 @@ ul {
     background-color: #b12a3b;
   }
 }
+@media (min-width: 769px) and (max-width: 1339px) {
+  .section-one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-one .container {
+    position: relative;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2352941176);
+    background-color: #fff;
+  }
+  .section-one .container .paragraph {
+    text-align: center;
+    width: 100%;
+  }
+  .section-one .container .section-one-02 {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+  }
+  .section-one .container .section-one-02 .linksnavbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section-one .container .section-one-02 .linksnavbar .btn-h .btn-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    font-size: 40px;
+    font-family: Nassim;
+    color: rgba(0, 0, 0, 0.2352941176);
+  }
+  .section-one .container .section-one-02 .linksnavbar .btn-h .btn-info:hover {
+    color: #b12a3b;
+  }
+  .section-one .container .section-one-02 .max-content {
+    width: 100%;
+  }
+  .section-one .container .section-one-02 .content {
+    width: 100%;
+    height: 100%;
+  }
+  .section-one .container .section-one-02 .content .foods {
+    display: flex;
+  }
+  .section-one .container .section-one-02 .content .foods .food {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2352941176);
+  }
+  .section-one .container .section-one-02 .content .foods .food .logo {
+    width: 100px;
+    height: auto;
+  }
+  .section-one .container .section-one-02 .content .foods .food .logo img {
+    border: 3px solid rgba(0, 0, 0, 0.2352941176);
+    width: 100%;
+    height: 100%;
+  }
+  .section-one .container .section-one-02 .content .foods .food .food-info {
+    margin-left: 10px;
+    width: 100%;
+  }
+  .section-one .container .section-one-02 .content .foods .food .food-info h3, .section-one .container .section-one-02 .content .foods .food .food-info .h3 {
+    font-size: 15px;
+    margin: 0;
+  }
+  .section-one .container .section-one-02 .content .foods .food .food-info p {
+    margin: 0;
+  }
+  .section-one .container .section-one-02 .content .foods .food .food-price {
+    padding: 2px 10px;
+    background-color: rgba(0, 0, 0, 0.1058823529);
+    color: #b12a3b;
+  }
+}
 @media (max-width: 768px) {
   .section-one {
     width: 100%;
@@ -11570,98 +11742,6 @@ ul {
   .section-one .container .section-one-02 .content .foods {
     display: flex;
     flex-direction: column;
-  }
-  .section-one .container .section-one-02 .content .foods .food {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2352941176);
-  }
-  .section-one .container .section-one-02 .content .foods .food .logo {
-    width: 100px;
-    height: auto;
-  }
-  .section-one .container .section-one-02 .content .foods .food .logo img {
-    border: 3px solid rgba(0, 0, 0, 0.2352941176);
-    width: 100%;
-    height: 100%;
-  }
-  .section-one .container .section-one-02 .content .foods .food .food-info {
-    margin-left: 10px;
-    width: 100%;
-  }
-  .section-one .container .section-one-02 .content .foods .food .food-info h3, .section-one .container .section-one-02 .content .foods .food .food-info .h3 {
-    font-size: 15px;
-    margin: 0;
-  }
-  .section-one .container .section-one-02 .content .foods .food .food-info p {
-    margin: 0;
-  }
-  .section-one .container .section-one-02 .content .foods .food .food-price {
-    padding: 2px 10px;
-    background-color: rgba(0, 0, 0, 0.1058823529);
-    color: #b12a3b;
-  }
-}
-@media (min-width: 769px) and (max-width: 1339px) {
-  .section-one {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .section-one .container {
-    position: relative;
-    height: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.2352941176);
-    background-color: #fff;
-  }
-  .section-one .container .paragraph {
-    text-align: center;
-    width: 100%;
-  }
-  .section-one .container .section-one-02 {
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 100%;
-    height: auto;
-  }
-  .section-one .container .section-one-02 .linksnavbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .section-one .container .section-one-02 .linksnavbar .btn-h .btn-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 5px;
-    width: 100%;
-    font-size: 40px;
-    font-family: Nassim;
-    color: rgba(0, 0, 0, 0.2352941176);
-  }
-  .section-one .container .section-one-02 .linksnavbar .btn-h .btn-info:hover {
-    color: #b12a3b;
-  }
-  .section-one .container .section-one-02 .max-content {
-    width: 100%;
-  }
-  .section-one .container .section-one-02 .content {
-    width: 100%;
-    height: 100%;
-  }
-  .section-one .container .section-one-02 .content .foods {
-    display: flex;
   }
   .section-one .container .section-one-02 .content .foods .food {
     padding-top: 10px;
@@ -11892,6 +11972,166 @@ ul {
   }
   .section-four .container .client2 {
     flex-direction: column-reversegit commit -m "";
+  }
+}
+@media (min-width: 769px) and (max-width: 1339px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/footer_background.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  footer .path-footer {
+    position: absolute;
+    top: -6px;
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/footer_bottom_decoration_img.png);
+    background-position: center;
+    background-repeat: repeat-x;
+  }
+  footer .container {
+    height: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    text-align: center;
+  }
+  footer .container .about {
+    padding-bottom: 20px;
+    height: 100%;
+    color: #fff;
+  }
+  footer .container .about .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 35px;
+  }
+  footer .container .images {
+    padding-bottom: 20px;
+    color: #fff;
+  }
+  footer .container .images .imgig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  footer .container .images .imgig img {
+    width: 40px;
+  }
+  footer .container .tags {
+    height: 100%;
+    color: #fff;
+  }
+  footer .container .tags .tagnames {
+    height: 100%;
+  }
+  footer .container .tags .tagnames .tag {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    height: 100%;
+  }
+  footer .container .tags .tagnames .tag span {
+    font-size: 12px;
+    color: #fff;
+    background-color: #b12a3b;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/footer_background.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  footer .path-footer {
+    position: absolute;
+    top: -6px;
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/footer_bottom_decoration_img.png);
+    background-position: center;
+    background-repeat: repeat-x;
+  }
+  footer .container {
+    height: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .container .about {
+    padding-bottom: 20px;
+    height: 100%;
+    color: #fff;
+  }
+  footer .container .about .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 35px;
+  }
+  footer .container .images {
+    padding-bottom: 20px;
+    color: #fff;
+  }
+  footer .container .images .imgig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  footer .container .images .imgig img {
+    width: 40px;
+  }
+  footer .container .tags {
+    height: 100%;
+    color: #fff;
+  }
+  footer .container .tags .tagnames {
+    height: 100%;
+  }
+  footer .container .tags .tagnames .tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+  }
+  footer .container .tags .tagnames .tag span {
+    font-size: 12px;
+    color: #fff;
+    background-color: #b12a3b;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #fff;
   }
 }
 
