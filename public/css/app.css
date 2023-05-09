@@ -10893,10 +10893,10 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: start;
   gap: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 .section-one .container .section-one-02 .linksnavbar {
   width: 150px;
@@ -10917,6 +10917,9 @@ textarea.form-control-lg {
   font-family: Nassim;
   color: rgba(0, 0, 0, 0.2352941176);
 }
+.section-one .container .section-one-02 .linksnavbar .btn-h .btn-info .heading-3 {
+  font-size: 20px;
+}
 .section-one .container .section-one-02 .linksnavbar .btn-h .btn-info:hover {
   color: #b12a3b;
   border-right: 4px solid #b12a3b;
@@ -10926,7 +10929,6 @@ textarea.form-control-lg {
   height: 100%;
 }
 .section-one .container .section-one-02 .content .foods {
-  margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
   display: flex;
@@ -11025,7 +11027,7 @@ ul {
 @media (max-width: 768px) {
   .navbarsection {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.8);
@@ -11184,12 +11186,34 @@ ul {
     gap: 20px;
     font-family: Nassim-regular;
   }
+  .main-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Nassim;
+    width: 100%;
+    height: 50px;
+    color: #130c0a;
+    text-align: center;
+  }
+  .main-heading h1, .main-heading .h1 {
+    margin: 0;
+  }
+  .main-heading h1 span, .main-heading .h1 span {
+    color: #b12a3b;
+  }
+  .main-heading img {
+    width: 100%;
+  }
 }
 @media (min-width: 769px) and (max-width: 1339px) {
   .navbarsection {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.8);
@@ -11261,18 +11285,26 @@ ul {
     justify-content: space-between;
     align-items: center;
   }
+  .section-one .container .section-one-02 .linksnavbar .btn-h {
+    width: 100%;
+  }
   .section-one .container .section-one-02 .linksnavbar .btn-h .btn-info {
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 5px;
     width: 100%;
-    font-size: 40px;
+    font-size: 20px;
     font-family: Nassim;
     color: rgba(0, 0, 0, 0.2352941176);
   }
+  .section-one .container .section-one-02 .linksnavbar .btn-h .btn-info .heading-3 {
+    font-size: 16px;
+  }
   .section-one .container .section-one-02 .linksnavbar .btn-h .btn-info:hover {
+    border: none;
     color: #b12a3b;
   }
   .section-one .container .section-one-02 .max-content {
