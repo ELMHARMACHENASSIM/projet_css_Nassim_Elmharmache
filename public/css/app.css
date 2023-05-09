@@ -10993,7 +10993,12 @@ textarea.form-control-lg {
   flex-direction: column;
 }
 .section-two .container .chef img {
+  opacity: 0.5;
   border-bottom: 1px solid rgba(236, 232, 232, 0.6352941176);
+  transition: all 0.4s ease-in-out;
+}
+.section-two .container .chef img:hover {
+  opacity: 1;
 }
 .section-two .container .chef .name {
   margin-top: 10px;
@@ -11493,6 +11498,7 @@ ul {
   }
   .section-two .container .chef img {
     border: none;
+    opacity: 1;
   }
   .section-two .container .chef .name {
     width: 100%;
