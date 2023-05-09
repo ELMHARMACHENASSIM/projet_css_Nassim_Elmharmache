@@ -11194,6 +11194,34 @@ textarea.form-control-lg {
   border: 5px solid #fff;
 }
 
+.section-five {
+  width: 100%;
+  height: auto;
+}
+.section-five .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-five .container .card-contact {
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  height: auto;
+  background-color: #b12a3b;
+}
+.section-five .container .card-contact .loc {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #fff;
+}
+.section-five .container .card-contact .loc p {
+  padding-top: 10px;
+  margin: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11241,9 +11269,11 @@ ul {
   text-align: center;
 }
 .main-heading h1, .main-heading .h1 {
+  font-size: 30px;
   margin: 0;
 }
 .main-heading h1 span, .main-heading .h1 span {
+  font-size: 55px;
   color: #b12a3b;
 }
 
@@ -11861,7 +11891,7 @@ ul {
     color: #fff;
   }
   .section-four .container .client2 {
-    flex-direction: column-reverse;
+    flex-direction: column-reversegit commit -m "";
   }
 }
 
