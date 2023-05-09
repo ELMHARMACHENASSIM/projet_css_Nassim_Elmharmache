@@ -276,6 +276,35 @@
 
 
         }
+        .ourblog{
+            width: 100%;
+            height: auto;
+            .our{
+                position: relative;
+                background-image: url(../img/blog_img1.jpg);
+                width: 50%;
+                height:300px;
+               .dateour{
+                position: absolute;
+                bottom: -20px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: $red-color;
+                padding: 15px;
+                color: $white-color;
+                text-align: center;
+                width: 80%;
+                margin: 0 auto;
+                span{
+                    font-size: 30px;
+                }
+                .infoour{
+                    
+                }
+               }
+            }
+
+        }
     }
 }
 

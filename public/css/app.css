@@ -11087,7 +11087,31 @@ textarea.form-control-lg {
   border-radius: 40px;
   border: none;
 }
-
+.section-three .container .ourblog {
+  width: 100%;
+  height: auto;
+}
+.section-three .container .ourblog .our {
+  position: relative;
+  background-image: url(../img/blog_img1.jpg);
+  width: 50%;
+  height: 300px;
+}
+.section-three .container .ourblog .our .dateour {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #b12a3b;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.section-three .container .ourblog .our .dateour span {
+  font-size: 30px;
+}
 * {
   margin: 0;
   padding: 0;
