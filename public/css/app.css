@@ -10972,6 +10972,7 @@ textarea.form-control-lg {
 }
 
 .section-two {
+  padding: 40px 0;
   margin-top: 50px;
   width: 100%;
   height: auto;
@@ -10980,6 +10981,9 @@ textarea.form-control-lg {
   background-image: url(../img/team_background.jpg);
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
+}
+.section-two .main-heading h1, .section-two .main-heading .h1 {
+  color: #fff;
 }
 .section-two .container {
   padding-top: 40px;
@@ -10991,6 +10995,7 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
 }
 .section-two .container .chef img {
   opacity: 0.5;
@@ -11005,6 +11010,82 @@ textarea.form-control-lg {
   font-family: Nassim-regular;
   color: #fff;
   font-size: 20px;
+}
+
+.section-three {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+.section-three .container {
+  position: relative;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2352941176);
+  background-color: #fff;
+}
+.section-three .container .carry {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.section-three .container .carry1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section-three .container .carry2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.section-three .container .contactus {
+  width: 800px;
+  height: 600px;
+  background-image: url(../img/book_table_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-three .container .contactus p {
+  padding-top: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.section-three .container .contactus p span {
+  font-size: 25px;
+}
+.section-three .container .contactus .formulare {
+  width: 80%;
+}
+.section-three .container .contactus .formulare .form-div {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.section-three .container .contactus .formulare .botondiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-three .container .contactus .formulare .botondiv .btn-send {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background-color: #b12a3b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: none;
 }
 
 * {
@@ -11024,12 +11105,12 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .container {
@@ -11045,8 +11126,8 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   font-family: Nassim;
   width: 100%;
   height: 50px;
@@ -11227,8 +11308,8 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     font-family: Nassim;
     width: 100%;
     height: 50px;
@@ -11505,6 +11586,68 @@ ul {
     text-align: center;
     padding: 15px;
     background-color: #b12a3b;
+  }
+}
+@media (max-width: 768px) {
+  .section-three {
+    width: 100%;
+    height: auto;
+  }
+  .section-three .container .carry {
+    display: none;
+  }
+  .section-three .container .contactus {
+    width: 100%;
+    height: auto;
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-three .container .contactus p {
+    padding-top: 30px;
+    color: #b12a3b;
+    text-align: center;
+    font-size: 20px;
+  }
+  .section-three .container .contactus p span {
+    font-size: 25px;
+  }
+  .section-three .container .contactus .formulare {
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.8862745098);
+  }
+  .section-three .container .contactus .formulare .form-div {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .section-three .container .contactus .formulare .botondiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-three .container .contactus .formulare .botondiv .btn-send {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #b12a3b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
   }
 }
 
