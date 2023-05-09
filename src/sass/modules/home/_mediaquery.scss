@@ -197,7 +197,7 @@
         padding-bottom: 40px;
         font-family: Nassim;
         width: 100%;
-        height: 50px;
+        height: auto;
         color: $black-color;
         text-align: center;
 
@@ -594,6 +594,79 @@
                     }
                 }
             }
+            .ourblog {
+                padding-top: 120px;
+                padding-bottom: 120px;
+                width: 100%;
+                height: auto;
+                .our-images {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  gap: 40px;
+                  .main-our {
+                    width: 100%;
+                    border: 2px solid $red-color;
+                    .our {
+                      position: relative;
+                      background-position: center;
+                      background-size: cover;
+                      background-image: url(../img/blog_img1.jpg);
+                      width: 100%;
+                      height: 300px;
+                      .dateour {
+                        position: absolute;
+                        bottom: -35px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        background-color: $red-color;
+                        padding: 15px;
+                        color: $white-color;
+                        text-align: center;
+                        width: 100%;
+                        margin: 0 auto;
+                        font-size: 16px;
+                        span {
+                          font-size: 20px;
+                        }
+                      }
+                    }
+                    .infoour {
+                        text-align: center;
+                      width: 80%;
+                      margin: 0 auto;
+                      margin-top: 50px;
+          
+                      .title {
+                        width: 100%;
+                        h1 {
+                          font-size: 20px;
+                        }
+                      }
+                    }
+                  }
+                }
+                .botondiv {
+                  text-align: center;
+                  width: 100%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  a {
+                    cursor: pointer;
+                    width: 200px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 40px;
+                    background-color: $red-color;
+                    color: $white-color;
+                    padding: 10px 20px;
+                    border-radius: 40px;
+                    border: none;
+                  }
+                }
+              }
         }
     }
 }
